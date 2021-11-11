@@ -1,0 +1,84 @@
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG2$ gcc 171063_uyg2A.c -o MyExec
+
+
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG2$ ./MyExec
+Please enter a dept!
+
+
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG2$ ./MyExec 1
+Please enter an integer of at least 2!
+
+
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG2$ ./MyExec 2
+PID:755273, PPID:754931 
+Waiting for 2 seconds...
+PID:755274, PPID:755273 
+PID:755278, PPID:755273 
+PID:755279, PPID:755278 
+MyExec(755273)─┬─MyExec(755274)
+               └─MyExec(755278)───MyExec(755279)───sh(755280)───pstree(755281)
+
+
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG2$ ./MyExec 3 i
+152120171063 @pinarkizilarslan wrote this masterpiece. :) 
+PID:755296, PPID:754931 
+Waiting for 2 seconds...
+PID:755297, PPID:755296 
+PID:755302, PPID:755296 
+PID:755303, PPID:755302 
+PID:755304, PPID:755303 
+MyExec(755296)─┬─MyExec(755297)
+               └─MyExec(755302)───MyExec(755303)───MyExec(755304)───sh(755305)───pstree(755306)
+
+
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG2$ ./MyExec 3 d
+New Depth : 6 
+PID:755316, PPID:754931 
+Waiting for 2 seconds...
+PID:755317, PPID:755316 
+PID:755321, PPID:755316 
+PID:755322, PPID:755321 
+PID:755323, PPID:755322 
+PID:755324, PPID:755323 
+PID:755325, PPID:755324 
+PID:755326, PPID:755325 
+MyExec(755316)─┬─MyExec(755317)
+               └─MyExec(755321)───MyExec(755322)───MyExec(755323)───MyExec(755324)───MyExec(755325)───MyExec(755326)───sh(755327)───pstree(755328)
+
+
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG2$ ./MyExec 4 id
+152120171063 @pinarkizilarslan wrote this masterpiece. :) 
+New Depth : 8 
+PID:755349, PPID:754931 
+Waiting for 2 seconds...
+PID:755350, PPID:755349 
+PID:755354, PPID:755349 
+PID:755355, PPID:755354 
+PID:755356, PPID:755355 
+PID:755357, PPID:755356 
+PID:755358, PPID:755357 
+PID:755359, PPID:755358 
+PID:755360, PPID:755359 
+PID:755361, PPID:755360 
+MyExec(755349)─┬─MyExec(755350)
+               └─MyExec(755354)───MyExec(755355)───MyExec(755356)───MyExec(755357)───MyExec(755358)───MyExec(755359)───MyExec(755360)───MyExec(755361)───sh(755362)───pstree(755363)
+
+
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG2$ ./MyExec 3 di
+New Depth : 6 
+152120171063 @pinarkizilarslan wrote this masterpiece. :) 
+PID:755379, PPID:754931 
+Waiting for 2 seconds...
+PID:755380, PPID:755379 
+PID:755384, PPID:755379 
+PID:755385, PPID:755384 
+PID:755386, PPID:755385 
+PID:755387, PPID:755386 
+PID:755388, PPID:755387 
+PID:755389, PPID:755388 
+MyExec(755379)─┬─MyExec(755380)
+               └─MyExec(755384)───MyExec(755385)───MyExec(755386)───MyExec(755387)───MyExec(755388)───MyExec(755389)───sh(755390)───pstree(755391)
+               
+               
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG2$
+
