@@ -1,0 +1,83 @@
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG4$ ./myExec 
+./myExec must be executed with one additional argument (pathInputFile)!
+Aborted automatically
+
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG4$ ./myExec 1 2
+./myExec must be executed with one additional argument (pathInputFile)!
+Aborted automatically...
+
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG4$ ./myExec ~/Masaüstü/4/3\)case-a_inputFile.txt
+Pipe was created successfully...
+Parent		-> My PID is 5197, PPID is 4782
+Child		-> My PID is 5198, PPID is 5197
+		--> Last modified time: Wed May  5 19:49:21 2021
+ 		     /home/pinar/Masaüstü/4/3)case-a_inputFile.txt: 902221234567
+Child		-> Parsing and printing Phone Number (Hardcodded, just for info)
+		  Country: Turkey
+		  City: Eskisehir
+		  Rest of the phone number:1234567 
+Child		-> The message is being send. Warning: Type Constraint!
+Child		-> Sleeping 4 sec.s
+Parent		-> Incoming message from child is 902221234567
+	     ----> Hint: Incoming message size is fixed 8 bytes for this application. Not 12 (digit count) or something other! 
+Parent		-> Child process is being waited.
+Child		-> Slept 4 sec.s
+Terminating PID: 5197, PPID: 4782
+Child		-> Waiting is done.
+Terminating PID: 5197, PPID: 4782
+
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG4$ ./myExec ~/Masaüstü/4/4\)case-b1_inputFile.txt 
+Pipe was created successfully...
+Parent		-> My PID is 5200, PPID is 4782
+Child		-> My PID is 5201, PPID is 5200
+		--> Last modified time: Wed May  5 19:49:37 2021
+ 		     /home/pinar/Masaüstü/4/4)case-b1_inputFile.txt: 903741234567
+Child		-> Parsing and printing Phone Number (Hardcodded, just for info)
+		  Country: Turkey
+		  City: Other City
+		  Rest of the phone number:1234567 
+Child		-> The message is being send. Warning: Type Constraint!
+Child		-> Sleeping 4 sec.s
+Parent		-> Incoming message from child is 903741234567
+	     ----> Hint: Incoming message size is fixed 8 bytes for this application. Not 12 (digit count) or something other! 
+Parent		-> I'll kill you if unreversed numbr is lower than reversed number.
+Parent		-> Alarm clock signal was scheduled in 4 seconds...
+Alarm Handler	-> Alarm clock signal has beed received
+Parent		-> Child is killed. Or not?
+Terminating PID: 5200, PPID: 4782
+
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG4$ ./myExec ~/Masaüstü/4/5\)case-b2_inputFile.txt 
+Pipe was created successfully...
+Parent		-> My PID is 5203, PPID is 4782
+Child		-> My PID is 5204, PPID is 5203
+		--> Last modified time: Wed May  5 19:49:53 2021
+ 		     /home/pinar/Masaüstü/4/5)case-b2_inputFile.txt: 903747654321
+Child		-> Parsing and printing Phone Number (Hardcodded, just for info)
+		  Country: Turkey
+		  City: Other City
+		  Rest of the phone number:7654321 
+Child		-> The message is being send. Warning: Type Constraint!
+Child		-> Sleeping 4 sec.s
+Parent		-> Incoming message from child is 903747654321
+	     ----> Hint: Incoming message size is fixed 8 bytes for this application. Not 12 (digit count) or something other! 
+Terminating PID: 5203, PPID: 4782
+Child		-> Slept 4 sec.s
+Terminating PID: 5203, PPID: 4782
+
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG4$ ./myExec ~/Masaüstü/4/6\)case-c_inputFile.txt 
+Pipe was created successfully...
+Parent		-> My PID is 5206, PPID is 4782
+Child		-> My PID is 5207, PPID is 5206
+		--> Last modified time: Wed May  5 19:50:18 2021
+ 		     /home/pinar/Masaüstü/4/6)case-c_inputFile.txt: 912227654321
+Child		-> Parsing and printing Phone Number (Hardcodded, just for info)
+		  Country: Other City
+		  City: Eskisehir
+		  Rest of the phone number:7654321 
+Child		-> The message is being send. Warning: Type Constraint!
+Child		-> Sleeping 4 sec.s
+Parent		-> Incoming message from child is 912227654321
+	     ----> Hint: Incoming message size is fixed 8 bytes for this application. Not 12 (digit count) or something other! 
+Parent		-> Alarm clock signal was scheduled in 10 seconds... 
+Parent		-> Only the God can judge me! (freedom for 10 seconds).
+
