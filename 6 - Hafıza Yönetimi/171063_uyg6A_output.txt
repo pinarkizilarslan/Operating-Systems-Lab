@@ -1,0 +1,52 @@
+### text segmenti için "yalnızca okunabilir" erişim
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG6$ ./myExec
+	pageSize = 4096
+	&globlVar	 = 0x555a917bd010
+	&localVar	 = 0x7fffeb2b5a1c
+	&main()	 = 0x555a917ba209
+	text-seg end	 = 0x555a917ba445
+	data-seg end	 = 0x555a917bd014
+	heap-seg end	 = 0x555a93607000
+
+
+Enter memory location in hex (start with 0x): 0x555a917ba445
+Reading 0x555a917ba445: 0
+Writing 0 back to 0x555a917ba445: Parçalama arızası (çekirdek döküldü)
+
+
+
+
+
+### data segmenti için "okunabilir ve yazılabilir" erişim
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG6$ ./myExec
+	pageSize = 4096
+	&globlVar	 = 0x557dcb798010
+	&localVar	 = 0x7ffe719a9aec
+	&main()	 = 0x557dcb795209
+	text-seg end	 = 0x557dcb795445
+	data-seg end	 = 0x557dcb798014
+	heap-seg end	 = 0x557dcc3fc000
+
+
+Enter memory location in hex (start with 0x): 0x557dcb798014       
+Reading 0x557dcb798014: 0
+Writing 0 back to 0x557dcb798014: ok
+
+
+
+
+
+### heap segmenti için "yetki dışı" erişim
+pinar@pinars:~/Masaüstü/152120171063_IsSisLabA2021BHR_UYG6$ ./myExec
+	pageSize = 4096
+	&globlVar	 = 0x55bce3b5f010
+	&localVar	 = 0x7ffdd130372c
+	&main()	 = 0x55bce3b5c209
+	text-seg end	 = 0x55bce3b5c445
+	data-seg end	 = 0x55bce3b5f014
+	heap-seg end	 = 0x55bce4b65000
+
+
+Enter memory location in hex (start with 0x): 0x55bce4b65000
+Reading 0x55bce4b65000: Parçalama arızası (çekirdek döküldü)
+
