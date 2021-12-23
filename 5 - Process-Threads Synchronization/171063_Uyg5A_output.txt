@@ -1,0 +1,73 @@
+Örnek program koşusu #1:
+
+pinar@pinars:~/Masaüstü/lab5$ ./myExec 
+-->> Başlangıç !! 
+ 1. (meyve) Cilek
+ 2. (meyve) Muz
+ 3. (baklagil) Mercimek
+ 4. (baklagil) Pirinc
+[UYARI] Baklagil ürünlerinin tümü alındı !! 
+ 5. (temizlik) Camasir suyu
+ 6. (temizlik) Deterjan
+[UYARI] Temizlik ürünlerinin tümü alındı !! 
+ 7. (tatli) Baklava		--> Kalan oge sayisi: 6
+ 8. (tatli) Kadayif		--> Kalan oge sayisi: 5
+ 9. (tatli) Kunefe		--> Kalan oge sayisi: 4
+[UYARI] Tatlı ürünlerinin tümü alındı !! 
+10. (et) Kofte		--> Kalan oge sayisi: 3
+11. (et) Tavuk		--> Kalan oge sayisi: 2
+12. (et) Balik		--> Kalan oge sayisi: 1
+[UYARI] Et ürünlerinin tümü alındı !! 
+13. (meyve) Kivi	--> Goreve hazirim! 
+[UYARI] Meyve ürünlerinin tümü alındı !! 
+
+
+
+Örnek program koşusu #2:
+
+pinar@pinars:~/Masaüstü/lab5$ ./myExec 
+-->> Başlangıç !! 
+ 1. (meyve) Cilek
+ 2. (tatli) Baklava
+ 3. (temizlik) Camasir suyu
+ 4. (temizlik) Deterjan
+[UYARI] Temizlik ürünlerinin tümü alındı !! 
+ 5. (tatli) Kadayif
+ 6. (tatli) Kunefe
+[UYARI] Tatlı ürünlerinin tümü alındı !! 
+ 7. (meyve) Muz	--> Kalan oge sayisi: 6
+ 8. (et) Kofte		--> Kalan oge sayisi: 5
+ 9. (et) Tavuk		--> Kalan oge sayisi: 4
+10. (et) Balik		--> Kalan oge sayisi: 3
+[UYARI] Et ürünlerinin tümü alındı !! 
+11. (baklagil) Mercimek	--> Kalan oge sayisi: 2
+12. (baklagil) Pirinc		--> Kalan oge sayisi: 1
+[UYARI] Baklagil ürünlerinin tümü alındı !! 
+13. (meyve) Kivi	--> Goreve hazirim! 
+[UYARI] Meyve ürünlerinin tümü alındı !! 
+
+
+
+Örnek program koşusu #3:
+
+pinar@pinars:~/Masaüstü/lab5$ ./myExec 
+-->> Başlangıç !! 
+ 1. (meyve) Cilek
+ 2. (meyve) Muz
+ 3. (temizlik) Camasir suyu
+ 4. (temizlik) Deterjan
+[UYARI] Temizlik ürünlerinin tümü alındı !! 
+ 5. (tatli) Baklava
+ 6. (tatli) Kadayif
+ 7. (tatli) Kunefe		--> Kalan oge sayisi: 6
+[UYARI] Tatlı ürünlerinin tümü alındı !! 
+ 8. (et) Kofte		--> Kalan oge sayisi: 5
+ 9. (et) Tavuk		--> Kalan oge sayisi: 4
+10. (et) Balik		--> Kalan oge sayisi: 3
+[UYARI] Et ürünlerinin tümü alındı !! 
+11. (baklagil) Mercimek		--> Kalan oge sayisi: 2
+12. (baklagil) Pirinc		--> Kalan oge sayisi: 1
+[UYARI] Baklagil ürünlerinin tümü alındı !! 
+13. (meyve) Kivi	--> Goreve hazirim! 
+[UYARI] Meyve ürünlerinin tümü alındı !! 
+
